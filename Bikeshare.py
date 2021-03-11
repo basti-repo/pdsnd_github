@@ -44,7 +44,7 @@ def get_filters():
         else:
             print('\n-----Please enter a valid city!-----\n\n')
 
-    # get user input for month (all, january, february, ... , june)
+    # get user input for month
     month_valid = False
     while month_valid is False:
         month = input('Of which month would you like do see data?\n'
