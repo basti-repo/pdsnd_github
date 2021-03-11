@@ -78,7 +78,7 @@ def get_filters():
         else:
             print('\n-----Please enter a valid month!-----\n\n')
 
-    # get user input for day of week (all, monday, tuesday, ... sunday)
+    # get user input for day of week
     day_valid = False
     while day_valid is False:
         day = input('Of which day of the week would you like do see data?\n'
